@@ -14,9 +14,8 @@ If there is something missing, or you have information that would answer a quest
 * [WebSphere Liberty built on Open Liberty](https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-overview) (WL docs)
 * Economics of Liberty ([issue](https://github.com/WASdev/websphere-and-liberty/issues/26))
 * Intro to Liberty from a tWAS perspective ([issue](https://github.com/WASdev/websphere-and-liberty/issues/27))
-* Overview of various target platforms for apps and when to choose them (eg MoRE (Liberty with tWAS operations), EASeJ (Liberty on SaaS), Liberty on VM, Liberty in containers, etc) ([issue](https://github.com/WASdev/websphere-and-liberty/issues/28))
+* Overview of various target platforms for apps and when to choose them (eg MoRE (Liberty with tWAS operations), Liberty on VM, Liberty in containers, etc) ([issue](https://github.com/WASdev/websphere-and-liberty/issues/28))
   * [MoRE](https://www.ibm.com/docs/en/more) (docs)
-  * [EASeJ](https://www.ibm.com/docs/en/ease) (docs)
   * [EAR](https://www.ibm.com/docs/en/ear) (docs)
 * Liberty downloads and licensing options and guidance ([issue](https://github.com/WASdev/websphere-and-liberty/issues/29))
 * [Liberty support for Java SE 8 until December 2030](https://community.ibm.com/community/user/blogs/macdara-butler/2025/11/13/liberty-java-8-support)
@@ -60,7 +59,6 @@ Deployment options:
   * [Deploying Liberty servers in a tWAS environment with MoRE](https://community.ibm.com/community/user/viewdocument/enterprise-application-runtimes-a?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
   * [Cost-effective options for Java modernization](https://community.ibm.com/community/user/viewdocument/ear-and-ama-cost-effective-options?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
 * Deploying Liberty servers in containers
-  * [Deploying to SaaS with EASeJ](https://community.ibm.com/community/user/viewdocument/wasliberty-cab-spontaneous-ease?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
   * [Cost-effective options for Java modernization](https://community.ibm.com/community/user/viewdocument/ear-and-ama-cost-effective-options?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
 
 
@@ -179,7 +177,7 @@ See [Other resources](#other-resources) for more help.
 
 * What to do when, suggested sequence of steps ([issue](https://github.com/WASdev/websphere-and-liberty/issues/36))
 
-* Getting Liberty and deployment solutions (MoRE, EAR, EASeJ, Liberty on containers)
+* Getting Liberty and deployment solutions (MoRE, EAR, Liberty on containers)
   * [Getting started with MoRE](https://wasdev.github.io/MoRE-Getting-Started/)
 * [Demystifying Liberty for WebSphere administrators](https://developer.ibm.com/articles/demystifying-liberty-websphere-admins/) (article with embedded videos)
 * Best practices for setting up operations for Liberty when coming from a tWAS operational environment ([issue](https://github.com/WASdev/websphere-and-liberty/issues/18))
@@ -196,7 +194,7 @@ See [Other resources](#other-resources) for more help.
 
 | Topic | Resources available (description, link, and type)| Sources of info to create missing resources |
 | --- | --- | --- |
-| Operations: Moving from Admin Console to Liberty admin center, EAseJ, MoRE, etc. | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/37)) | [Demystifying Liberty for WebSphere administrators: Myth #3](https://developer.ibm.com/articles/demystifying-liberty-websphere-admins/#myth-3-liberty-doesn-t-have-an-admin-console6) (article with embedded videos); [Liberty Admin Center](https://openliberty.io/docs/latest/admin-center.html); [WebSphere admin console](https://www.ibm.com/docs/en/was/9.0.5?topic=clients-using-administrative-console); [wsadmin scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=clients-getting-started-wsadmin-scripting);|
+| Operations: Moving from Admin Console to Liberty admin center, MoRE, etc. | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/37)) | [Demystifying Liberty for WebSphere administrators: Myth #3](https://developer.ibm.com/articles/demystifying-liberty-websphere-admins/#myth-3-liberty-doesn-t-have-an-admin-console6) (article with embedded videos); [Liberty Admin Center](https://openliberty.io/docs/latest/admin-center.html); [WebSphere admin console](https://www.ibm.com/docs/en/was/9.0.5?topic=clients-using-administrative-console); [wsadmin scripting](https://www.ibm.com/docs/en/was/9.0.5?topic=clients-getting-started-wsadmin-scripting);|
 | Operations: How to secure the server configuration on Liberty | [Security Configuration Hardening docs](https://openliberty.io/docs/latest/security-hardening.html) (docs) |  | 
 | Operations: How to do centralised management in Liberty | [Demystifying Liberty for WebSphere administrators: Myth #2](https://developer.ibm.com/articles/demystifying-liberty-websphere-admins/#myth-2-liberty-does-not-have-centralized-management4) (article with embedded videos) |
 | Operations: How to load-balance across Liberty servers | [Demystifying Liberty for WebSphere administrators: Myth #5](https://developer.ibm.com/articles/demystifying-liberty-websphere-admins/#myth-5-it-is-very-hard-to-configure-liberty-with-ibm-http-server10) (article with embedded videos) |
