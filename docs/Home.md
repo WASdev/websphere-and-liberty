@@ -5,7 +5,7 @@
     ineum('reportingUrl', 'https://pumpkin.instana.io/eum/');
     ineum('key', 'zaXj7hcCSxy28m1I0LhLJw');
     ineum('trackSessions');
-    </script>
+  </script>
   <script defer crossorigin="anonymous" src="https://eum.instana.io/1.8.1/eum.min.js" integrity="sha384-qFzHZ5BC7HOPEBSYkbYSv+DBWrG34P1QW9mIaCR41db6yOJNYmH4antW6KLkc6v1">
   </script>
 # WebSphere and iberty Knowledge Base

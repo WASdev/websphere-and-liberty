@@ -1,3 +1,13 @@
+  <script>
+    (function(s,t,a,n){s[t]||(s[t]=a,n=s[a]=function(){n.q.push(arguments)},
+    n.q=[],n.v=2,n.l=1*new Date)})(window,"InstanaEumObject","ineum");
+
+    ineum('reportingUrl', 'https://pumpkin.instana.io/eum/');
+    ineum('key', 'zaXj7hcCSxy28m1I0LhLJw');
+    ineum('trackSessions');
+  </script>
+  <script defer crossorigin="anonymous" src="https://eum.instana.io/1.8.1/eum.min.js" integrity="sha384-qFzHZ5BC7HOPEBSYkbYSv+DBWrG34P1QW9mIaCR41db6yOJNYmH4antW6KLkc6v1">
+  </script>
 **Notes from conversations - the info on this page needs verifying**
 
 ***
