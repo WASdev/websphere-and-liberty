@@ -8,7 +8,7 @@
   </script>
   <script defer crossorigin="anonymous" src="https://eum.instana.io/1.8.1/eum.min.js" integrity="sha384-qFzHZ5BC7HOPEBSYkbYSv+DBWrG34P1QW9mIaCR41db6yOJNYmH4antW6KLkc6v1">
   </script>
-# WebSphere and iberty Knowledge Base
+# WebSphere and Liberty Knowledge Base
 This knowledge base provides a collection of links to information about how to migrate a WebSphere Application Server application to run on [Liberty](https://www.ibm.com/products/liberty).
 
 The knowledge base is managed and curated by [Laura Cowen](https://github.com/lauracowen), Technical Content Strategist and Developer Advocate at IBM. Contributions and feedback are welcome from WebSphere users and subject matter experts.
