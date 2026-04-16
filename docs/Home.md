@@ -157,7 +157,7 @@ See [Other resources](#other-resources) for more help.
 ## Tools to help you migrate to Liberty
   
 * Tools to help you migrate to Liberty ([issue](https://github.com/WASdev/websphere-and-liberty/issues/9))
-![Diagram showing the tools.](https://github.com/user-attachments/assets/59e63e66-fa22-4a8b-b3e7-a05788aa4187)
+![Diagram showing the tools.](https://github.com/user-attachments/assets/93df0d86-2fc3-49c0-9eab-73c15615c786)
     * Application Modernization Accelerator (AMA)
       * [Application Modernization Accelerator documentation](https://www.ibm.com/docs/en/ama) (docs)
       * [AMA update and demo (Application Modernization Accelerator)](https://community.ibm.com/community/user/viewdocument/ama-update-and-demo-application-mo?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
