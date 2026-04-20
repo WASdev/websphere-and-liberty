@@ -1,13 +1,11 @@
-  <script>
-    (function(s,t,a,n){s[t]||(s[t]=a,n=s[a]=function(){n.q.push(arguments)},
-    n.q=[],n.v=2,n.l=1*new Date)})(window,"InstanaEumObject","ineum");
+<script src="https://cdn.amplitude.com/script/7dbc899e7260da59010e38a1cfcd9786.js"></script>
 
-    ineum('reportingUrl', 'https://pumpkin.instana.io/eum/');
-    ineum('key', 'zaXj7hcCSxy28m1I0LhLJw');
-    ineum('trackSessions');
-  </script>
-  <script defer crossorigin="anonymous" src="https://eum.instana.io/1.8.1/eum.min.js" integrity="sha384-qFzHZ5BC7HOPEBSYkbYSv+DBWrG34P1QW9mIaCR41db6yOJNYmH4antW6KLkc6v1">
-  </script>
+<script>
+  window.amplitude.init('7dbc899e7260da59010e38a1cfcd9786', {
+    fetchRemoteConfig: true,
+    autocapture: true
+  });
+</script>
 # WebSphere and Liberty Knowledge Base
 This knowledge base provides a collection of links to information about how to migrate a WebSphere Application Server application to run on [Liberty](https://www.ibm.com/products/liberty).
 
