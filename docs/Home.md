@@ -6,7 +6,7 @@
     autocapture: true
   });
 </script>
-# WebSphere and Liberty Knowledge Base
+# WebSphere and Liberty Migration Knowledge Base
 This knowledge base provides a collection of links to information about how to migrate a WebSphere Application Server application to run on [Liberty](https://www.ibm.com/products/liberty).
 
 The knowledge base is managed and curated by [Laura Cowen](https://github.com/lauracowen), Technical Content Strategist and Developer Advocate at IBM. Contributions and feedback are welcome from WebSphere users and subject matter experts.
@@ -140,7 +140,11 @@ See [Other resources](#other-resources) for more help.
 
 # Planning a migration
 
-* [What is application modernization? (concepts on ibm.com)](https://www.ibm.com/think/topics/application-modernization)
+When planning modernization of an existing application, take it step-by-step to minimize risks and extract value sooner. For example, you can get the application running on Liberty on a VM or in a container first, then tackle other changes to the application code when that's working. Any refactoring of the application (for example decomposing a monolith into microservices) can be a last step and only if it benefits the evolution of the application or workload in question. If you do intend to refactor an application into microservices, those microservices can still run on Liberty.
+
+* [Accelerating the application containerization journey](https://www.ibm.com/think/insights/accelerating-application-containerization-journey)
+* [Containerization of legacy applications](https://developer.ibm.com/articles/containerization-of-legacy-applications/)
+* [Modernizing runtimes with Liberty](https://ibm-cloud-architecture.github.io/modernization-playbook/applications/liberty/)
 * [Java Application Modernization Playbook](https://ibm.github.io/app-mod-journey/tree/index.html)
 * [Tour of App Mod Playbook](https://www.youtube.com/watch?v=iyLrL-S0UjM) (video)
 * [Getting started with application modernization](https://developer.ibm.com/learningpaths/get-started-application-modernization/) (IBM Developer; needs updating)
@@ -248,12 +252,12 @@ What to do when, suggested sequence of steps
 | Issues to look out for, differences between WebSphere and Liberty and how to handle them -  **Transaction management** |[add resources here] |
 | Transaction propagation between remote EJBs   | [Transaction propagation on Liberty](https://community.ibm.com/community/user/blogs/laura-cowen1/2025/09/12/transaction-propagation-on-liberty) (article) | 
 | How to do EJB lookups  | [Binding remote EJB names with Liberty](https://stackoverflow.com/questions/79555723/binding-remote-ejb-names-with-liberty) (forum); [Liberty Support for Custom JNDI Names for Enterprise Beans](https://openliberty.io/blog/2020/11/20/JNDI-gRPC-200012.html#jndi) (OL blog; also available on the [Red Hat Developer blog](https://developers.redhat.com/blog/2020/12/02/open-liberty-20-0-0-12-brings-support-for-grpc-custom-jndi-names-and-java-se-15#use_custom_jndi_names_to_look_up_or_inject_ejbs)) |
-| How to migrate hardcoded `InitialContext` or `java:global` lookups? | See [InitialContext and java:global lookups](InitialContext-and-java%3Aglobal-lookups) ([issue](https://github.com/WASdev/websphere-and-liberty/issues/51)) |
-| How to migrate SOAP endpoints using JAX-RPC? | [Automating JAX-RPC source code migration](https://community.ibm.com/community/user/viewdocument/20250109-cab-session-automating-j?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video) |
+| How to migrate hardcoded `InitialContext` or `java:global` lookups? | See [[InitialContext and java:global lookups]] ([issue](https://github.com/WASdev/websphere-and-liberty/issues/51)) |
+| How to migrate SOAP endpoints that use JAX-RPC? | [Migrate JAX-RPC to JAX-WS for Liberty: Automated conversion guide](https://developer.ibm.com/articles/migrate-jaxrpc-jaxws-liberty/) (article); [Automating JAX-RPC source code migration](https://community.ibm.com/community/user/viewdocument/20250109-cab-session-automating-j?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video; a recording of a talk Jan 2025) |
 | How to migrate authentication using DatabaseServerLoginModule? | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/48)) |
 | How to validate migrated Filenet connections? | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/49)) |
 | How to migrate WebSphere SIBus JMS messaging? | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/50)) |
-| How to migrate hardcoded `InitialContext` or `java:global` lookups? | See [InitialContext and java:global lookups](InitialContext-and-java%3Aglobal-lookups) ([issue](https://github.com/WASdev/websphere-and-liberty/issues/51)) |
+| How to migrate hardcoded `InitialContext` or `java:global` lookups? | See [[InitialContext and java:global lookups]] ([issue](https://github.com/WASdev/websphere-and-liberty/issues/51)) |
 | How to migrate legacy Spring and Hibernate frameworks that don't support Java 17? Are there common pitfalls? | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/52)) |
 | What are the differences in classloader locations between tWAS and Liberty? | [Rules for migrating WebSphere traditional application class loading configuration to Liberty](https://www.ibm.com/support/pages/rules-migrating-websphere-traditional-application-class-loading-configuration-liberty) (IBM Support) (covers classloader hierarchies for tWAS and Liberty, migration rules for classloading, classloading libraries, classloading config); [Class loader configuration](https://openliberty.io/docs/latest/class-loader-library-config.html) (OL docs) |
 | What are the differences in WAR structure between tWAS and Liberty? | ([issue](https://github.com/WASdev/websphere-and-liberty/issues/78)) |
@@ -334,3 +338,4 @@ Each link is labelled to indicate its format:
 * _forum_: Q & A site, such as StackOverflow
 * _internal_: currently IBM-internal only
 * _wip_: work in progress
+
