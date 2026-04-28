@@ -93,9 +93,6 @@ Deployment options:
 
 # Differences between Liberty and WebSphere
 
-
-(LC: Ultimately, I think this would be more useful to be framed in terms of goals, as "I do it this way on WebSphere; how should I do it on Liberty?", rather than highlighting the differences.)
-
 ## Architectural differences
 
 * Overview of architectural differences between WebSphere and Liberty. ([issue](https://github.com/WASdev/websphere-and-liberty/issues/31)) Based on sources:
@@ -119,11 +116,8 @@ Deployment options:
   * ? Other things likely to be flagged by binary scanner?
   * Spring and Spring Boot on Liberty
 
-(Provide links out to detailed instructions in later sections.)
 
 # Getting to know Liberty
-
-
 
 While tWAS applications are largely compatible with running on Liberty, Liberty is not identical to tWAS. Before you start to migrate a tWAS application to run on Liberty, it is worth becoming familiar with writing and running apps on Liberty. WebSphere Liberty is built on Open Liberty; apart from [a small number of additional capabilities in WebSphere Liberty](https://www.ibm.com/docs/en/was-liberty/nd?topic=liberty-overview), the WebSphere Liberty and Open Liberty runtimes are the same.
 
@@ -240,10 +234,7 @@ Enable hardware cryptography | [Java 8](https://www.ibm.com/support/pages/node/6
 
 ## How to migrate applications to run on Liberty
 
-Tips: sequence and “how” for known cases
-What to do when, suggested sequence of steps 
-
-* Migrate and then update Java version 
+* Tip: Migrate and then update Java version 
 * Issues to look out for, differences between WebSphere and Liberty and how to handle them 
 * Transaction management
 * Managing Deployment Scripts without WAS ND 
@@ -277,8 +268,6 @@ What to do when, suggested sequence of steps
 | Support for legacy versions of Spring and Struts | [Open Source Library Support announcement](https://www.ibm.com/docs/en/announcements/secure-java-applications-from-vulnerabilities-library-support-spring-library-support-struts) |
 
 # Client case studies
-
-(these should be organised/presented according to what they demo and/or by industry, etc so they're easily retrieved)
 
 * [How to deploy an Open Liberty InstantOn app to OpenShift Local](https://thechalkboards.com/how-to-deploy-an-open-liberty-instanton-app-to-openshift-local/)
 * [Modernizing Software Architecture with MicroProfile and Open Liberty](https://www.ibm.com/case-studies/blog/modernizing-software-architecture-with-microprofile-and-open-liberty)
@@ -317,11 +306,6 @@ What to do when, suggested sequence of steps
 | Online forums | [WebSphere & Liberty TechXchange community](https://community.ibm.com/community/user/communities/community-home?CommunityKey=5c4ba155-561a-4794-9883-bb0c6164e14e); [WebSphere & Liberty Customer Advisory Board (CAB) TechXchange community](https://community.ibm.com/community/user/groups/community-home?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=groupdetails) |
 | Videos | [Laura's backups of ExpertTV etc](https://ibm.box.com/s/p5oiyeke5f46wqxwsw3y7ow157feb5i3) (internal); [Grace's video audit](https://ibm.box.com/s/fanhkrkddgz8fd8y0zaob9df4xv0k83a) (internal) Videos cover topics listed on this whole page but all videos probably need updating. |
 
-# Suggested article/video ideas
-* I can do x on tWAS, how do I do x on Liberty?
-* Liberty operations for a tWAS operator
-* Code changes probably not needed...but if they are...
- 
 # Source formats
 
 Each link is labelled to indicate its format:
