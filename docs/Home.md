@@ -17,6 +17,8 @@ To search for information, use your browser's search in page feature (CTRL+F).
 
 If there is something missing, or you have information that would answer a question on the knowledge base, please [raise an issue](https://github.com/WASdev/websphere-and-liberty/issues/new).
 
+* TOC
+{:toc}
 
 # Liberty overview
 
