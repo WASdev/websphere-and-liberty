@@ -38,7 +38,7 @@ If there is something missing, or you have information that would answer a quest
 * Operations:
   * [Effortless updates require a zero-migration policy](https://foojay.io/today/effortless-updates-zero-migration/) (article)
   * [Zero migration](https://openliberty.io/docs/latest/zero-migration-architecture.html) (OL docs)
-  * [Zero Migration Java – Staying Current Without Breaking Your App]([https://javapro.io/2026/04/10/zero-migration-java-staying-current-without-breaking-your-app/](https://ibm.biz/ZeroMigrationJAVAPRO)) (article)
+  * [Zero Migration Java – Staying Current Without Breaking Your App](https://ibm.biz/ZeroMigrationJAVAPRO) (article)
   * [Achieve high performance Java applications with IBM Semeru Runtimes and Open Liberty](https://developer.ibm.com/articles/j-java-performance/) (IBM Developer)
 * Developers:
   * [Five Java Developer Must-Haves for Ultra-Fast Startup Solutions](https://dzone.com/articles/five-java-developer-must-haves-for-ultra-fast-star) (article)
