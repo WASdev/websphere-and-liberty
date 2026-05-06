@@ -4,6 +4,10 @@ This repository hosts the WebSphere and Liberty knowledge base, a collection of 
 
 The [knowledge base](https://wasdev.github.io/websphere-and-liberty/Home) is managed and curated by [Laura Cowen](https://github.com/lauracowen), Technical Content Strategist and Developer Advocate at IBM.
 
+👉 Browse the migration knowledge base:  
+https://wasdev.github.io/websphere-and-liberty/Home
+
+
 ## knowledge base aims
 
 - To **collect and curate** the disparate information you might need to migrate your first application from WebSphere to Liberty.
