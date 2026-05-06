@@ -1,10 +1,14 @@
-# WebSphere and Liberty wiki
+# WebSphere and Liberty knowledge base
 
-This repository hosts the WebSphere and Liberty wiki, a collection of links to information about how to migrate a WebSphere Application Server application to run on [Liberty](https://www.ibm.com/products/liberty).
+This repository hosts the WebSphere and Liberty knowledge base, a collection of links to information about how to migrate a WebSphere Application Server application to run on [Liberty](https://www.ibm.com/products/liberty).
 
-The wiki is managed and curated by [Laura Cowen](https://github.com/lauracowen), Technical Content Strategist and Developer Advocate at IBM.
+The [knowledge base](https://wasdev.github.io/websphere-and-liberty/Home) is managed and curated by [Laura Cowen](https://github.com/lauracowen), Technical Content Strategist and Developer Advocate at IBM.
 
-## Wiki aims
+👉 Browse the migration knowledge base:  
+https://wasdev.github.io/websphere-and-liberty/Home
+
+
+## knowledge base aims
 
 - To **collect and curate** the disparate information you might need to migrate your first application from WebSphere to Liberty.
 - To **identify gaps** in this information.
@@ -13,13 +17,8 @@ The wiki is managed and curated by [Laura Cowen](https://github.com/lauracowen),
 
 ## How to contribute
 
-- If you spot a gap or inaccuracy in information, or just have a comment or request, [raise an issue](https://github.com/WASdev/websphere-and-liberty/issues/new/choose). [*]
+- If you spot a gap or inaccuracy in information, or just have a comment or request, [raise an issue](https://github.com/WASdev/websphere-and-liberty/issues/new/choose).
 - If you have a set of information to share that isn't already published anywhere online, [raise an issue](https://github.com/WASdev/websphere-and-liberty/issues/new/choose).
 - If you have any questions about confidential info that you can't just post publicly
     - IBMers contact me directly on Slack @lauracowen
     - non-IBMers please raise an issue to alert me then [contact me directly on LinkedIn](https://www.linkedin.com/in/lauracowen/).
-
-
-
----
-[*] Because of the way GitHub permissions work for wikis, I can't give direct edit access to the wiki to non-IBMers, and it's a manual process even to give access to individual IBMers. So we're going with issues for now.
