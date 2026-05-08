@@ -244,6 +244,7 @@ Enable hardware cryptography | [Java 8](https://www.ibm.com/support/pages/node/6
 | Topic | Resources available (description, link, and type)|
 | --- | --- |
 | Issues to look out for, differences between WebSphere and Liberty and how to handle them -  **Transaction management** |[add resources here] |
+| Migrating EJBs to Liberty | [Useful FAQ](https://community.ibm.com/community/user/viewdocument/migrating-ejb-applications-to-websphere-liberty?CommunityKey=5c4ba155-561a-4794-9883-bb0c6164e14e) |
 | Transaction propagation between remote EJBs   | [Transaction propagation on Liberty](https://community.ibm.com/community/user/blogs/laura-cowen1/2025/09/12/transaction-propagation-on-liberty) (article) | 
 | How to do EJB lookups  | [Binding remote EJB names with Liberty](https://stackoverflow.com/questions/79555723/binding-remote-ejb-names-with-liberty) (forum); [Liberty Support for Custom JNDI Names for Enterprise Beans](https://openliberty.io/blog/2020/11/20/JNDI-gRPC-200012.html#jndi) (OL blog; also available on the [Red Hat Developer blog](https://developers.redhat.com/blog/2020/12/02/open-liberty-20-0-0-12-brings-support-for-grpc-custom-jndi-names-and-java-se-15#use_custom_jndi_names_to_look_up_or_inject_ejbs)) |
 | How to migrate hardcoded `InitialContext` or `java:global` lookups? | See [[InitialContext and java:global lookups]] ([issue](https://github.com/WASdev/websphere-and-liberty/issues/51)) |
