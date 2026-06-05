@@ -4,3 +4,5 @@ baseurl: "/websphere-and-liberty"
 
 plugins:
   - jekyll-sitemap
+
+google_site_verification: j38PIUaiQV0mQZ-Hzabu1Sx0dPXki_i5nyO1i0h9Arc
