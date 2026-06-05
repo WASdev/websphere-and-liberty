@@ -1,1 +1,6 @@
 title: ""
+url: "https://wasdev.github.io"
+baseurl: "/websphere-and-liberty"
+
+plugins:
+  - jekyll-sitemap
