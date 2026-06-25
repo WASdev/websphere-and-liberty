@@ -156,18 +156,18 @@ When planning modernization of an existing application, take it step-by-step to 
 
 ## Tools to help you migrate to Liberty
   
-* Tools to help you migrate to Liberty ([issue](https://github.com/WASdev/websphere-and-liberty/issues/9))
+* [Java application modernization tools: A complete guide](https://developer.ibm.com/articles/app-modernization-tools-overview/) (IBM Developer)
 ![Diagram showing the tools.](https://github.com/user-attachments/assets/93df0d86-2fc3-49c0-9eab-73c15615c786)
     * Application Modernization Accelerator (AMA)
       * [Application Modernization Accelerator documentation](https://www.ibm.com/docs/en/ama) (docs)
       * [AMA update and demo (Application Modernization Accelerator)](https://community.ibm.com/community/user/viewdocument/ama-update-and-demo-application-mo?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
     * AMA Dev tools
-      * [Easily modernize Java applications in your IDE with AMA Dev Tools](https://developer.ibm.com/articles/modernize-java-applications-ama-dev-tools/)
+      * [Easily modernize Java applications in your IDE with AMA Dev Tools](https://developer.ibm.com/articles/modernize-java-applications-ama-dev-tools/) (IBM Developer)
   * Developer tools
     * Liberty Dev tools
-      * [Effective cloud-native Java app development with Liberty in IntelliJ IDEA](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-intellij-idea)
-      * [Effective cloud native development with Liberty in Visual Studio Code](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-vs-code)
-      * [Effective cloud-native Java app development with Open Liberty in the Eclipse IDE](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-eclipse-ide)
+      * [Effective cloud-native Java app development with Liberty in IntelliJ IDEA](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-intellij-idea) (IBM Developer)
+      * [Effective cloud native development with Liberty in Visual Studio Code](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-vs-code) (IBM Developer)
+      * [Effective cloud-native Java app development with Open Liberty in the Eclipse IDE](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-eclipse-ide) (IBM Developer)
   * Refactoring tools
     * Mono2Micro
       * [Mono2Micro documentation](https://www.ibm.com/docs/en/mono2micro?topic=mono2micro-overview) (docs)
