@@ -156,8 +156,9 @@ When planning modernization of an existing application, take it step-by-step to 
 
 ## Tools to help you migrate to Liberty
   
-* [Java application modernization tools: A complete guide](https://developer.ibm.com/articles/app-modernization-tools-overview/) (IBM Developer)
 ![Diagram showing the tools.](https://github.com/user-attachments/assets/93df0d86-2fc3-49c0-9eab-73c15615c786)
+
+* [Java application modernization tools: A complete guide](https://developer.ibm.com/articles/app-modernization-tools-overview/) (IBM Developer)
     * Application Modernization Accelerator (AMA)
       * [Application Modernization Accelerator documentation](https://www.ibm.com/docs/en/ama) (docs)
       * [AMA update and demo (Application Modernization Accelerator)](https://community.ibm.com/community/user/viewdocument/ama-update-and-demo-application-mo?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
