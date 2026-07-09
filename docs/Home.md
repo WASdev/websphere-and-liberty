@@ -164,8 +164,9 @@ When planning modernization of an existing application, take it step-by-step to 
       * [AMA update and demo (Application Modernization Accelerator)](https://community.ibm.com/community/user/viewdocument/ama-update-and-demo-application-mo?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
     * AMA Dev tools
       * [Easily modernize Java applications in your IDE with AMA Dev Tools](https://developer.ibm.com/articles/modernize-java-applications-ama-dev-tools/) (IBM Developer)
+      * [Migrate JAX-RPC to JAX-WS for Liberty: Automated conversion guide](https://developer.ibm.com/articles/migrate-jaxrpc-jaxws-liberty/) (IBM Developer)
   * Developer tools
-    * Liberty Dev tools
+    * Liberty developer tools
       * [Effective cloud-native Java app development with Liberty in IntelliJ IDEA](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-intellij-idea) (IBM Developer)
       * [Effective cloud native development with Liberty in Visual Studio Code](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-vs-code) (IBM Developer)
       * [Effective cloud-native Java app development with Open Liberty in the Eclipse IDE](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-eclipse-ide) (IBM Developer)
