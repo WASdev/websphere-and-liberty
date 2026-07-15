@@ -297,7 +297,6 @@ Enable hardware cryptography | [Java 8](https://www.ibm.com/support/pages/node/6
 
 * Training - developers
   * [Liberty Developer Essentials badge](https://www.credly.com/org/ibm/badge/liberty-developer-essentials) (free badge developers can earn through Credly)
-  * [IBM Certified Developer – Cloud Native Java with IBM Liberty](https://www.ibm.com/training/certification/ibm-certified-developer-cloud-native-java-with-ibm-liberty-2023-C9004800) (certification exam)
   * [Liberty Deep Dive](https://openliberty.io/guides/liberty-deep-dive.html) (self-led learning)
   * [Open Liberty guides](https://openliberty.io/guides/) (self-led learning)
 * Training - operations
