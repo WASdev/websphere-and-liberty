@@ -6,7 +6,7 @@
     autocapture: true
   });
 </script>
-# WebSphere and Liberty Migration Knowledge Base
+# WebSphere and Liberty Modernization Knowledge Base
 This knowledge base provides a collection of links to information about how to migrate a WebSphere Application Server application to run on [Liberty](https://www.ibm.com/products/liberty).
 
 The knowledge base is managed and curated by [Laura Cowen](https://github.com/lauracowen), Technical Content Strategist and Developer Advocate at IBM. Contributions and feedback are welcome from WebSphere users and subject matter experts.
