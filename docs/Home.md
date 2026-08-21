@@ -1,3 +1,7 @@
+---
+permalink: /Home
+---
+
 <script src="https://cdn.amplitude.com/script/7dbc899e7260da59010e38a1cfcd9786.js"></script>
 
 <script>
