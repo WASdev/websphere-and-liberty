@@ -160,26 +160,29 @@ When planning modernization of an existing application, take it step-by-step to 
 ![Diagram showing the tools.](https://github.com/user-attachments/assets/93df0d86-2fc3-49c0-9eab-73c15615c786)
 
 * [Java application modernization tools: A complete guide](https://developer.ibm.com/articles/app-modernization-tools-overview/) (IBM Developer)
-    * Application Modernization Accelerator (AMA)
-      * [Overview of IBM Application Modernization Accelerator](https://developer.ibm.com/articles/modernize-java-applications-ama/) (IBM Developer)
-      * [Application Modernization Accelerator documentation](https://www.ibm.com/docs/en/ama) (docs)
-      * [AMA update and demo (Application Modernization Accelerator)](https://community.ibm.com/community/user/viewdocument/ama-update-and-demo-application-mo?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
-    * AMA Dev tools
-      * [Easily modernize Java applications in your IDE with AMA Dev Tools](https://developer.ibm.com/articles/modernize-java-applications-ama-dev-tools/) (IBM Developer)
-      * [Migrate JAX-RPC to JAX-WS for Liberty: Automated conversion guide](https://developer.ibm.com/articles/migrate-jaxrpc-jaxws-liberty/) (IBM Developer)
-  * Developer tools
-    * Liberty developer tools
-      * [Effective cloud-native Java app development with Liberty in IntelliJ IDEA](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-intellij-idea) (IBM Developer)
-      * [Effective cloud native development with Liberty in Visual Studio Code](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-vs-code) (IBM Developer)
-      * [Effective cloud-native Java app development with Open Liberty in the Eclipse IDE](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-eclipse-ide) (IBM Developer)
-  * Refactoring tools
-    * Mono2Micro
-      * [Mono2Micro documentation](https://www.ibm.com/docs/en/mono2micro?topic=mono2micro-overview) (docs)
-      * [Using AI to refactor Java monoliths into microservices](https://www.youtube.com/watch?v=vN67fi1Yc0o) (video)
-      * [Accelerate your journey to microservices with binary analysis](https://www.youtube.com/watch?v=86tsMDmoZBA) (video)
-      * [Step-by-step instructions for Mono2Micro](https://heidloff.net/article/step-by-step-instructions-mono2micro/) (article)
-      * [Licensing for Mono2Micro](https://www.ibm.com/docs/en/mono2micro?topic=overview-licensing) (docs)
-      * [Links to trials](https://www.ibm.com/products/jsphere/tools) (ibm.com)
+    * [Learning path: Modernizing applications to use IBM WebSphere Liberty](https://developer.ibm.com/learningpaths/app-mod-liberty/) (IBM Developer)
+* Application Modernization Accelerator (AMA)
+    * [Overview of IBM Application Modernization Accelerator](https://developer.ibm.com/articles/modernize-java-applications-ama/) (IBM Developer)
+    * [Tutorial: Get started with IBM AMA to modernize Java applications](https://developer.ibm.com/learningpaths/app-mod-liberty/get-started-ama/) (IBM Developer)
+    * [Application Modernization Accelerator documentation](https://www.ibm.com/docs/en/ama) (docs)
+    * [AMA update and demo (Application Modernization Accelerator)](https://community.ibm.com/community/user/viewdocument/ama-update-and-demo-application-mo?CommunityKey=1348d157-c61b-417f-928a-179c3d0ffccb&tab=librarydocuments) (video)
+  * AMA Dev tools
+    * [Easily modernize Java applications in your IDE with AMA Dev Tools](https://developer.ibm.com/articles/modernize-java-applications-ama-dev-tools/) (IBM Developer)
+    * [Migrate JAX-RPC to JAX-WS for Liberty: Automated conversion guide](https://developer.ibm.com/articles/migrate-jaxrpc-jaxws-liberty/) (IBM Developer)
+    * [Tutorial: Get started with IBM AMA Dev Tools to modernize Java applications](https://developer.ibm.com/learningpaths/app-mod-liberty/get-started-ama-dev-tools/) (IBM Developer)
+* Developer tools
+  * Liberty developer tools
+    * [Effective cloud-native Java app development with Liberty in IntelliJ IDEA](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-intellij-idea) (IBM Developer)
+    * [Effective cloud native development with Liberty in Visual Studio Code](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-vs-code) (IBM Developer)
+    * [Effective cloud-native Java app development with Open Liberty in the Eclipse IDE](https://developer.ibm.com/articles/awb-effective-cloud-native-development-open-liberty-eclipse-ide) (IBM Developer)
+* Refactoring tools
+  * Mono2Micro
+    * [Mono2Micro documentation](https://www.ibm.com/docs/en/mono2micro?topic=mono2micro-overview) (docs)
+    * [Using AI to refactor Java monoliths into microservices](https://www.youtube.com/watch?v=vN67fi1Yc0o) (video)
+    * [Accelerate your journey to microservices with binary analysis](https://www.youtube.com/watch?v=86tsMDmoZBA) (video)
+    * [Step-by-step instructions for Mono2Micro](https://heidloff.net/article/step-by-step-instructions-mono2micro/) (article)
+    * [Licensing for Mono2Micro](https://www.ibm.com/docs/en/mono2micro?topic=overview-licensing) (docs)
+    * [Links to trials](https://www.ibm.com/products/jsphere/tools) (ibm.com)
 
 
 * Recommended order of steps and what to look out for ([issue](https://github.com/WASdev/websphere-and-liberty/issues/36))
